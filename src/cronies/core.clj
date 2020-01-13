@@ -12,8 +12,3 @@
   "Returns the next plausible date time to be tested given a datetime and a cron"
   [dt _cron]
   [dt])
-
-(defn test_cron
-  "Checks if a datetime is valid given a cron"
-  [_dt _cron]
-  false)
